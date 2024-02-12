@@ -33,6 +33,7 @@ header {
     top: 0;
     bottom: 100%;
     width: 100%;
+    z-index: 1;
 }
 
 header ul {
@@ -50,6 +51,8 @@ header ul li a {
 header>h2 {
     cursor: pointer;
     font-weight: 300;
+    color: #ffffff !important;
+    font-family: "Neue Machina" !important;
 }
 #main {
     width: 100%;
